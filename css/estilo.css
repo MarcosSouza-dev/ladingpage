@@ -65,11 +65,30 @@
 		figure{
 			text-align: center;
 		}
+		
 		.imagens-site{
 			border-radius: 20px 20px 50px 20px;
 			width: 22%;
 			height: 5%;
 		}
+		
+		#prof{
+			border-radius: 100%;
+			width: 12%;
+			height: 10%;
+
+		}
+		
+		@media(min-widht: 320px) and (max-width: 820px){
+			#prof{
+				border-radius: 100%;
+				width: 60%;
+				height: 50%;
+	
+		}
+
+		}
+
 		@media(min-widht: 320px) and (max-width: 820px){
 
 			.imagens-site{
